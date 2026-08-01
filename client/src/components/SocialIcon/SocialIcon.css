@@ -1,0 +1,31 @@
+.social-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-line);
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  color: var(--color-muted);
+  background: var(--color-card-soft);
+  transition: color 160ms ease, border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+}
+
+.social-icon svg {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+}
+
+.social-icon:hover,
+.social-icon:focus-visible {
+  color: var(--color-on-accent);
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  transform: translateY(-1px);
+}
+
+.social-icon:focus-visible {
+  outline: 3px solid var(--color-accent-soft);
+  outline-offset: 2px;
+}

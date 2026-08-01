@@ -1,0 +1,67 @@
+.features__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.features__card {
+  background: var(--color-elevated);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  min-height: 14rem;
+  transition: background-color 180ms ease, transform 180ms ease, border-color 180ms ease;
+  animation: rise-in 700ms ease both;
+}
+
+.features__card:hover,
+.features__card:focus-within {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  transform: translateY(-4px);
+}
+
+.features__icon {
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-accent);
+  margin-bottom: var(--space-4);
+}
+
+.features__card:hover .features__icon,
+.features__card:focus-within .features__icon {
+  color: var(--color-on-accent);
+}
+
+.features__card h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--color-ink);
+}
+
+.features__card p {
+  margin: var(--space-3) 0 0;
+  color: var(--color-muted);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.features__card:hover h3,
+.features__card:focus-within h3,
+.features__card:hover p,
+.features__card:focus-within p {
+  color: var(--color-on-accent);
+}
+
+@media (max-width: 1100px) {
+  .features__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .features__grid {
+    grid-template-columns: 1fr;
+  }
+}

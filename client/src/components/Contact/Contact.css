@@ -1,0 +1,132 @@
+.contact__layout {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: var(--space-7);
+  align-items: start;
+}
+
+.contact__direct {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.contact__direct-card {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem 1.1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-line);
+  background: var(--color-elevated);
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease, background-color 160ms ease;
+}
+
+.contact__direct-card:hover,
+.contact__direct-card:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(255, 76, 41, 0.5);
+  background: rgba(255, 76, 41, 0.08);
+}
+
+.contact__direct-kicker {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  font-weight: 700;
+}
+
+.contact__direct-card strong {
+  font-size: 1.05rem;
+  color: var(--color-ink);
+  word-break: break-word;
+}
+
+.contact__direct-card--mail strong {
+  color: var(--color-accent);
+}
+
+.contact__direct-card span:last-child {
+  color: var(--color-muted);
+  font-size: 0.88rem;
+}
+
+.contact__actions {
+  margin-top: var(--space-5);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.contact__form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.contact__form {
+  display: grid;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  background: var(--color-elevated);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+}
+
+.contact__field {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.contact__field label {
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.contact__field input,
+.contact__field textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--color-line-strong);
+  border-radius: 0;
+  padding: 0.85rem 0.15rem;
+  background: transparent;
+  color: var(--color-ink);
+}
+
+.contact__field input:focus-visible,
+.contact__field textarea:focus-visible {
+  outline: none;
+  border-bottom-color: var(--color-accent);
+}
+
+.contact__error {
+  margin: 0;
+  color: var(--color-danger);
+  font-size: 0.88rem;
+}
+
+.contact__status {
+  min-height: 1.5rem;
+}
+
+.contact__status-text {
+  margin: 0;
+  font-weight: 600;
+}
+
+.contact__status-text--success {
+  color: var(--color-success);
+}
+
+.contact__status-text--error {
+  color: var(--color-danger);
+}
+
+@media (max-width: 860px) {
+  .contact__layout {
+    grid-template-columns: 1fr;
+  }
+}
