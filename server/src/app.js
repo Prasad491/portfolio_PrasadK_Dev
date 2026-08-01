@@ -6,7 +6,11 @@ const { notFoundHandler, errorHandler } = require('./middleware/errorHandler');
 
 function createApp() {
   const app = express();
-  const clientOrigin = process.env.CLIENT_ORIGIN || 'http://localhost:5173';
+  // Reflect request origin when CLIENT_ORIGIN is unset (same-deploy Vercel + local flex).
+  const clientOrigin = process.env.CLIENT_ORIGIN || true;
+
+  // Required on Vercel so express-rate-limit accepts X-Forwarded-For.
+  app.set('trust proxy', 1);
 
   app.use(helmet());
   app.use(

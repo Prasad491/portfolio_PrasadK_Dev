@@ -8,7 +8,10 @@ const access = promisify(fs.access);
 
 const DATA_DIR = path.join(__dirname, '../data');
 const PORTFOLIO_PATH = path.join(DATA_DIR, 'portfolio.json');
-const MESSAGES_PATH = path.join(DATA_DIR, 'messages.json');
+// Vercel serverless FS is read-only except /tmp — keep messages writable there.
+const MESSAGES_PATH = process.env.VERCEL
+  ? path.join('/tmp', 'portfolio-messages.json')
+  : path.join(DATA_DIR, 'messages.json');
 const RESUME_PATH = path.join(__dirname, '../assets/resume/latest.pdf');
 
 async function getPortfolio() {
