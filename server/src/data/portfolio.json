@@ -1,0 +1,317 @@
+{
+  "profile": {
+    "name": "Prasad Shashikant Kulkarni",
+    "shortName": "Prasad Kulkarni",
+    "title": "Team Lead & MERN Stack Engineer",
+    "tagline": "7+ years designing, implementing, and leading enterprise web and mobile solutions across React, Node.js, and cloud-connected systems.",
+    "location": "Bangalore, India | Available for immediate joining",
+    "email": "prasadkulkarni491@gmail.com",
+    "phone": "+91 7972771530",
+    "linkedinUrl": "https://www.linkedin.com/in/prasad-kulkarni-a2788599/",
+    "photoUrl": "/images/profile.jpg",
+    "socials": [
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/prasad-kulkarni-a2788599/"
+      },
+      {
+        "label": "Gmail",
+        "url": "mailto:prasadkulkarni491@gmail.com"
+      },
+      {
+        "label": "Call",
+        "url": "tel:+917972771530"
+      }
+    ]
+  },
+  "about": {
+    "headline": "Full-spectrum web development with team leadership",
+    "body": "I specialize in designing, implementing, testing, and analyzing enterprise-level solutions. Proficient in React, Webpack, Node.js, HTML, CSS, JavaScript, Bootstrap, GraphQL, and Python, I build robust applications with reusable foundations, clean architecture, and secure API integrations. I raise production quality with Jest coverage, debug across interfaces and services, and practice Agile delivery with Git-based collaboration. Beyond hands-on engineering, I mentor junior developers and bring strong communication to cross-functional teams.",
+    "focusAreas": [
+      "MERN stack, microfrontends, and scalable APIs",
+      "Team leadership, mentoring, and stakeholder delivery",
+      "Testing, accessibility, IoT/cloud integrations, and reliability"
+    ]
+  },
+  "services": [
+    {
+      "title": "Web Development",
+      "description": "Build responsive enterprise web apps with React, Node.js, GraphQL, and secure REST integrations.",
+      "icon": "web"
+    },
+    {
+      "title": "App Development",
+      "description": "Deliver React Native mobile experiences with maps, scheduling, and real-time IoT-style flows.",
+      "icon": "app"
+    },
+    {
+      "title": "Team Leadership",
+      "description": "Lead delivery squads, mentor engineers, run reviews, and align stakeholders through demos and releases.",
+      "icon": "lead"
+    },
+    {
+      "title": "Quality Engineering",
+      "description": "Raise reliability with Jest, React Testing Library, accessibility focus, and production debugging.",
+      "icon": "qa"
+    }
+  ],
+  "experience": [
+    {
+      "company": "SLK Altimetrik",
+      "role": "Team Lead",
+      "period": "September 2024 - Present",
+      "location": "Bengaluru, Karnataka, India",
+      "summary": "Lead a team of 11 developers while contributing hands-on across web and mobile delivery, client demos, and release coordination.",
+      "highlights": [
+        "Manage task allocation, mentor junior engineers, and keep delivery on schedule",
+        "Act as Functional Lead for client calls, demos, and requirements analysis",
+        "Review code for quality and performance, and coordinate deployments with minimal downtime"
+      ],
+      "logoUrl": "/images/companies/slk-altimetrik.png"
+    },
+    {
+      "company": "MOURI Tech",
+      "role": "Principal Software Engineer",
+      "period": "2020 - 2024",
+      "location": "India",
+      "summary": "Delivered enterprise web solutions across React and Node platforms with strong ownership of quality, mentoring, and end-to-end feature delivery.",
+      "highlights": [
+        "Designed, built, and improved applications with focus on performance, reliability, and clean architecture",
+        "Integrated frontend and middleware systems with REST APIs while raising Jest coverage and release stability",
+        "Mentored engineers, guided technical decisions, and collaborated in Agile/Scrum delivery"
+      ],
+      "logoUrl": "/images/companies/mouri-tech.png"
+    },
+    {
+      "company": "YUJ Designs",
+      "role": "Design Engineer",
+      "period": "November 2018 - April 2019",
+      "location": "Pune, Maharashtra, India",
+      "summary": "Worked at a design studio serving enterprises across food, service, and retail, bridging engineering with UX and business analysis.",
+      "highlights": [
+        "Deployed software tools, processes, and metrics in partnership with UX and analysts",
+        "Maintained and upgraded existing systems for client delivery",
+        "Reviewed Python code for troubleshooting test cases and defect resolution"
+      ],
+      "logoUrl": "/images/companies/yuj-designs.png"
+    },
+    {
+      "company": "e-Zest Solutions",
+      "role": "Software Engineer - IoT, AI & ML",
+      "period": "November 2017 - November 2018",
+      "location": "Pune Area, India",
+      "summary": "Delivered Python-oriented product work within IoT, AI, and ML solution streams for enterprise and startup clients.",
+      "highlights": [
+        "Researched, designed, implemented, and managed software programs",
+        "Tested new programs and identified areas for modification",
+        "Wrote and implemented efficient, maintainable code"
+      ],
+      "logoUrl": "/images/companies/ezest.png"
+    },
+    {
+      "company": "Bitware Technologies",
+      "role": "IoT Engineer",
+      "period": "May 2017 - October 2017",
+      "location": "Pune Area, India",
+      "summary": "Built Raspberry Pi and AWS IoT applications and mentored a small engineering team.",
+      "highlights": [
+        "Developed Raspberry Pi and AWS IoT application workflows",
+        "Established Raspberry Pi connections with AWS IoT and AWS Lambda",
+        "Mentored a team of four people while shipping efficient, tested code"
+      ],
+      "logoUrl": "/images/companies/bitware.png"
+    }
+  ],
+  "projects": [
+    {
+      "title": "On Demand App",
+      "company": "SLK Altimetrik",
+      "summary": "Mobile appointment scheduling for sales counselors managing new-home project visits across multiple USA locations, with map-based navigation similar to an Uber-style flow.",
+      "outcomes": [
+        "Drove end-to-end delivery as Technical and Functional Lead with stakeholder coordination",
+        "Built core mobile features and translated business needs into technical solutions",
+        "Raised maintainability through mentoring, code reviews, unit tests, and SonarQube fixes"
+      ],
+      "tech": [
+        "Node.js",
+        "React Native",
+        "MSSQL",
+        "Sequelize"
+      ],
+      "links": []
+    },
+    {
+      "title": "Hussman Club App",
+      "company": "MOURI Tech",
+      "summary": "Global refrigeration IoT control system for monitoring, controlling, and optimizing refrigeration units worldwide with map-based live status tracking.",
+      "outcomes": [
+        "Owned end-to-end design, development, and deployment as individual contributor",
+        "Built real-time monitoring, remote temperature control, alerts, and global tracking",
+        "Integrated IoT-cloud solutions with unit testing and performance optimization"
+      ],
+      "tech": [
+        "Node.js",
+        "React Native",
+        "MSSQL",
+        "Sequelize"
+      ],
+      "links": []
+    },
+    {
+      "title": "DP Flow",
+      "company": "SLK Altimetrik",
+      "summary": "Web application that helps vendors predict and configure flow sensors and primary elements from parameters like pressure, temperature, pipe diameter, and fluid type.",
+      "outcomes": [
+        "Implemented multi-page dynamic forms with validations and API-driven graph visualizations",
+        "Reviewed junior developer code and improved coverage with Jest",
+        "Handled database and application migrations across environments"
+      ],
+      "tech": [
+        "React",
+        "Node.js",
+        "MSSQL",
+        "Sequelize"
+      ],
+      "links": []
+    },
+    {
+      "title": "Percipio",
+      "company": "MOURI Tech",
+      "summary": "Educational training platform focused on learning management experiences with strong accessibility standards for all users.",
+      "outcomes": [
+        "Led development from planning and design through deployment and maintenance",
+        "Built responsive React experiences and GraphQL data flows for performance",
+        "Improved WCAG-oriented accessibility and reliability with React Testing Library coverage"
+      ],
+      "tech": [
+        "React",
+        "GraphQL",
+        "Accessibility",
+        "RTL"
+      ],
+      "links": []
+    },
+    {
+      "title": "Equinox Single App",
+      "company": "MOURI Tech",
+      "summary": "Fitness platform experience featuring trainers, group classes, and spas, including a weekly calendar for instructor class bookings.",
+      "outcomes": [
+        "Integrated new models and APIs while owning end-to-end feature work",
+        "Implemented complex data bindings and iteration logic in React",
+        "Improved Jest coverage and resolved defects reported by QA"
+      ],
+      "tech": [
+        "React",
+        "Node.js",
+        "GraphQL"
+      ],
+      "links": []
+    },
+    {
+      "title": "Radial UI Kit",
+      "company": "MOURI Tech",
+      "summary": "Component playground and NPM package that lets developers design, test, and reuse UI components in isolation.",
+      "outcomes": [
+        "Designed and developed reusable UI components",
+        "Implemented Jest unit tests to improve coverage",
+        "Produced documentation and design guidance for kit adoption"
+      ],
+      "tech": [
+        "React",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Jest"
+      ],
+      "links": []
+    }
+  ],
+  "skills": {
+    "Frontend": [
+      "React",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Webpack",
+      "Bootstrap",
+      "Material UI",
+      "Redux",
+      "React Native"
+    ],
+    "Backend & Cloud": [
+      "Node.js",
+      "GraphQL",
+      "REST APIs",
+      "JWT authentication",
+      "Python",
+      "MySQL",
+      "MSSQL",
+      "Sequelize",
+      "AWS IoT",
+      "AWS Lambda",
+      "Azure Fundamentals"
+    ],
+    "Quality & Tooling": [
+      "Jest",
+      "React Testing Library",
+      "ESLint",
+      "Prettier",
+      "Git",
+      "GitHub",
+      "Bitbucket",
+      "SourceTree",
+      "NPM",
+      "Yarn"
+    ],
+    "Delivery & Domain": [
+      "Agile / Scrum",
+      "JIRA",
+      "Kanban",
+      "New Relic",
+      "AWS CloudWatch",
+      "Microfrontends",
+      "Microservices",
+      "Embedded Systems",
+      "C",
+      "Raspberry Pi"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (Electronics and Telecommunications)",
+      "school": "KIT College of Engineering, Kolhapur",
+      "period": "2009 - 2013"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Microsoft Certified: Azure Fundamentals",
+      "issuer": "Microsoft Learn",
+      "period": "Credential verified",
+      "url": "https://learn.microsoft.com/en-gb/users/prasadkulkarni-7916/credentials/5bf3808800105ca7?source=docs",
+      "type": "certification"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Certificate of Appreciation",
+      "organization": "SLK Altimetrik",
+      "period": "H1 25-26",
+      "summary": "Recognized for exemplary work ethic, exceptional talent, and passion with the Steallar team on the MSOL Platform and DP Flow Cloud.",
+      "highlight": "Steallar team - MSOL Platform and DP Flow Cloud",
+      "imageUrl": "/images/slk-appreciation.jpg",
+      "type": "company-award"
+    }
+  ],
+  "blogs": [],
+  "languages": [
+    "English (Native or Bilingual)",
+    "Marathi (Native or Bilingual)",
+    "Hindi (Native or Bilingual)",
+    "Japanese (Limited Working)"
+  ],
+  "seo": {
+    "title": "Prasad Shashikant Kulkarni - Team Lead & MERN Stack Engineer",
+    "description": "Portfolio of Prasad Kulkarni, Team Lead at SLK Altimetrik - MERN stack engineer with experience across React, Node.js, IoT, Azure, and enterprise delivery."
+  }
+}

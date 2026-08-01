@@ -1,0 +1,89 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.about__body {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--color-muted);
+  animation: rise-in 800ms ease both;
+}
+
+.about__education {
+  margin-top: var(--space-6);
+}
+
+.about__education-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: var(--space-4);
+}
+
+.about__education-degree {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.about__education-school {
+  margin: var(--space-2) 0 0;
+  color: var(--color-muted);
+}
+
+.about__side {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.about__panel {
+  background: var(--color-elevated);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+}
+
+.about__focus-title {
+  margin: 0 0 var(--space-3);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.about__focus-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.about__focus-list li {
+  position: relative;
+  padding-left: 1.1rem;
+  color: var(--color-ink);
+  line-height: 1.5;
+}
+
+.about__focus-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+@media (max-width: 840px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+}
