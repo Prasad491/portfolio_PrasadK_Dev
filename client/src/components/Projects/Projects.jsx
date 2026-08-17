@@ -49,7 +49,7 @@ function Projects({ projects }) {
                       ))}
                     </nav>
                   ) : (
-                    <span className="projects__tag">Enterprise delivery</span>
+                    <span className="projects__tag"></span>
                   )}
                 </div>
               </div>

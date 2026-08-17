@@ -111,7 +111,7 @@ async function downloadResume(_req, res, next) {
       return;
     }
 
-    const filename = process.env.RESUME_FILENAME || 'Portfolio-Resume.pdf';
+    const filename = process.env.RESUME_FILENAME || 'Prasad Kulkarni MERN DEVELOPER.pdf' ;
     res.download(getResumePath(), filename);
   } catch (error) {
     next(error);
