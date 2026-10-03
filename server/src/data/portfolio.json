@@ -26,11 +26,11 @@
   },
   "about": {
     "headline": "Full-spectrum web development with team leadership",
-    "body": "I specialize in designing, implementing, testing, and analyzing enterprise-level solutions. Proficient in React, Webpack, Node.js, HTML, CSS, JavaScript, Bootstrap, GraphQL, and Python, I build robust applications with reusable foundations, clean architecture, and secure API integrations. I raise production quality with Jest coverage, debug across interfaces and services, and practice Agile delivery with Git-based collaboration. Beyond hands-on engineering, I mentor junior developers and bring strong communication to cross-functional teams.",
+    "body": "I specialize in designing, implementing, testing, and analyzing enterprise-level solutions. Proficient in React, Webpack, Node.js, HTML, CSS, JavaScript, Bootstrap, GraphQL, and Python, I build robust applications with reusable foundations, clean architecture, and secure API integrations. I raise production quality with Jest unit, component, and integration tests, and automate critical mobile end-to-end workflows with Appium and WebdriverIO. I debug across interfaces and services, and practice Agile delivery with Git-based collaboration. Beyond hands-on engineering, I mentor junior developers and bring strong communication to cross-functional teams.",
     "focusAreas": [
       "MERN stack, microfrontends, and scalable APIs",
       "Team leadership, mentoring, and stakeholder delivery",
-      "Testing, accessibility, IoT/cloud integrations, and reliability"
+      "Jest integration testing, Appium mobile automation, and release reliability"
     ]
   },
   "services": [
@@ -51,7 +51,7 @@
     },
     {
       "title": "Quality Engineering",
-      "description": "Raise reliability with Jest, React Testing Library, accessibility focus, and production debugging.",
+      "description": "Raise reliability with Jest unit, component, and integration tests, plus Appium and WebdriverIO automation for critical mobile flows.",
       "icon": "qa"
     }
   ],
@@ -65,7 +65,8 @@
       "highlights": [
         "Manage task allocation, mentor junior engineers, and keep delivery on schedule",
         "Act as Functional Lead for client calls, demos, and requirements analysis",
-        "Review code for quality and performance, and coordinate deployments with minimal downtime"
+        "Review code for quality and performance, and coordinate deployments with minimal downtime",
+        "Automate critical mobile end-to-end workflows with Appium and WebdriverIO, and cover web flows with Jest unit, component, and integration tests"
       ],
       "logoUrl": "/images/companies/slk-altimetrik.png"
     },
@@ -130,11 +131,15 @@
       "outcomes": [
         "Drove end-to-end delivery as Technical and Functional Lead with stakeholder coordination",
         "Built core mobile features and translated business needs into technical solutions",
-        "Raised maintainability through mentoring, code reviews, unit tests, and SonarQube fixes"
+        "Raised maintainability through mentoring, code reviews, Jest tests, and SonarQube fixes",
+        "Automated critical appointment and navigation flows with Appium and WebdriverIO"
       ],
       "tech": [
         "Node.js",
         "React Native",
+        "Appium",
+        "WebdriverIO",
+        "Jest",
         "MSSQL",
         "Sequelize"
       ],
@@ -252,8 +257,12 @@
       "Azure Fundamentals"
     ],
     "Quality & Tooling": [
-      "Jest",
+      "Jest unit testing",
+      "Jest integration testing",
       "React Testing Library",
+      "Appium",
+      "WebdriverIO",
+      "Maestro",
       "ESLint",
       "Prettier",
       "Git",
@@ -300,6 +309,15 @@
       "summary": "Recognized for exemplary work ethic, exceptional talent, and passion with the Steallar team on the MSOL Platform and DP Flow Cloud.",
       "highlight": "Steallar team - MSOL Platform and DP Flow Cloud",
       "imageUrl": "/images/slk-appreciation.jpg",
+      "type": "company-award"
+    },
+    {
+      "title": "Customer Champion",
+      "organization": "SLK Altimetrik",
+      "period": "H1 25-26",
+      "summary": "Awarded Customer Champion for best performance in customer engagement, recognized for strong client partnership and delivery that kept stakeholders confident through demos, requirements, and releases.",
+      "highlight": "Best performance in customer engagement",
+      "imageUrl": "",
       "type": "company-award"
     }
   ],
