@@ -79,7 +79,7 @@ function Hero({ profile }) {
             )}
           </div>
           <div className="hero__badge" aria-hidden="true">
-            <strong>7+</strong>
+            <strong>{profile.yearsExperience || '7.5+'}</strong>
             <span>Years Experience</span>
           </div>
         </div>
