@@ -3,7 +3,8 @@
     "name": "Prasad Shashikant Kulkarni",
     "shortName": "Prasad Kulkarni",
     "title": "Team Lead & MERN Stack Engineer",
-    "tagline": "7+ years designing, implementing, and leading enterprise web and mobile solutions across React, Node.js, and cloud-connected systems.",
+    "tagline": "7.5+ years designing, implementing, and leading enterprise web and mobile solutions across React, Node.js, and cloud-connected systems.",
+    "yearsExperience": "7.5+",
     "location": "Bangalore, India | Available for immediate joining",
     "email": "prasadkulkarni491@gmail.com",
     "phone": "+91 7972771530",
@@ -124,6 +125,25 @@
     }
   ],
   "projects": [
+    {
+      "title": "BIOS Integration",
+      "company": "SLK Altimetrik",
+      "summary": "IoT mobile application that discovers industrial controllers over Bluetooth and Wi-Fi scanning, then streams device status and telemetry into a native iOS and Android experience so operators can monitor and act on connected hardware in the field.",
+      "outcomes": [
+        "Built controller discovery and pairing flows using Bluetooth and Wi-Fi scanning on React Native",
+        "Surfaced real-time device data, connection health, and scan results on iOS and Android",
+        "Integrated Node.js services to normalize scanned device payloads and support reliable mobile consumption"
+      ],
+      "tech": [
+        "React Native",
+        "Node.js",
+        "iOS",
+        "Android",
+        "Bluetooth",
+        "Wi-Fi"
+      ],
+      "links": []
+    },
     {
       "title": "On Demand App",
       "company": "SLK Altimetrik",

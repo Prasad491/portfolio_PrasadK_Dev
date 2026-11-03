@@ -153,8 +153,8 @@
   position: absolute;
   right: 8%;
   bottom: 8%;
-  width: 6.5rem;
-  height: 6.5rem;
+  width: 6.85rem;
+  height: 6.85rem;
   border-radius: 50%;
   background: var(--color-accent);
   color: var(--color-on-accent);
@@ -166,7 +166,7 @@
 }
 
 .hero__badge strong {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   line-height: 1;
 }
 
